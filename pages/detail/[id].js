@@ -1,3 +1,4 @@
+import Chat from '../../components/Chat';
 import Footer from '../../components/Footer';
 import Navbar from '../../components/Navbar';
 import ProductDetail from '../../components/Products/ProductDetail';
@@ -9,6 +10,7 @@ export default function index({ product }) {
     <>
         <Navbar />
         <Spacing />
+        <Chat />
         <ProductDetail product={product} />
         <Footer />
     </>

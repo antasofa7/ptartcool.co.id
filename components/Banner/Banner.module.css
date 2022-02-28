@@ -45,6 +45,7 @@
 
 .headerSwiper .headingWrapper .btnCta {
   display: flex;
+  flex-wrap: nowrap;
   max-width: 110px;
   margin-left: 12px;
   padding: 5px 10px;
