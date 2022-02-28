@@ -1,0 +1,88 @@
+.whyUs .row {
+  padding: 32px;
+  border-radius: 10px;
+  background-color: var(--primary-color);
+}
+
+.whyUs .col {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+}
+
+.whyUs .col .wrapper {
+  margin-left: 10px;
+}
+
+.whyUs .col .icon {
+  width: 50px;
+  height: auto;
+}
+
+.whyUs .col h4 {
+  font-family: var(--body-font);
+  font-size: 1.25rem;
+  color: var(--background-color);
+}
+
+.whyUs .col p {
+  margin-left: 6px;
+  font-family: var(--body-font);
+  font-size: 1rem;
+  color: var(--background-color);
+}
+
+@media screen and (min-width: 768px) {
+  .whyUs .row {
+      display: flex;
+      justify-content: space-around;
+  }
+
+  .whyUs .col {
+      width: 30%;
+      justify-content: center;
+  }
+  
+  .whyUs .col .icon {
+    width: 55px;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .whyUs .row {
+    padding: 20px;
+  }
+
+  .whyUs .col h4 {
+      font-size: 1.5rem;
+  }
+
+  .whyUs .col p {
+      font-size: 1.25rem;
+  }
+
+  .whyUs .col .icon {
+    width: 65px;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .whyUs .row {
+    padding: 40px;
+  }
+
+  .whyUs .col h4 {
+      font-size: 2rem;
+  }
+
+  .whyUs .col p {
+      font-size: 1.5rem;
+  }
+
+  .whyUs .col .icon {
+    width: 82px;
+  }
+}

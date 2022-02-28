@@ -1,0 +1,31 @@
+.chat {
+  position: fixed;
+  z-index: 3;
+  bottom: 1rem;
+  right: 0;
+}
+
+.chat .wrapper {
+  display: flex;
+  background-color: var(--accent-color);
+  border-radius: 50px;
+  box-shadow: 1px 4px 10px rgba(1, 50, 44, .2);
+  align-items: center;
+}
+
+.chat .wrapper h6 {
+  display: none;
+  font-family: var(--body-font);
+  font-size: 16px;
+  color: var(--background-color);
+  padding-left: 12px;
+}
+
+.chat .wrapper:hover h6 {
+  display: block;
+  transition-delay: .4s;
+}
+
+.chat .wrapper img {
+  padding: 5px 6px 3px 6px;
+}

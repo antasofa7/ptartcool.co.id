@@ -1,0 +1,73 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    padding: 0 16px;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+.navbar .logo {
+    height: 2rem;
+}
+
+.navbar .logo img {
+    height: 100%;
+    width: auto;
+}
+
+.navbar .toggleMenu {
+    width: 28px;
+    height: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .navbar {
+        height: 80px;
+        width: 100%;
+    }
+
+    .navbar .logo {
+        height: 2.5rem;
+    }
+
+    .navbar .toggleMenu {
+        width: 30px;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .navbar {
+        height: 100px;
+        width: 100%;
+        padding: 0 100px;
+    }
+
+    .navbar .menu {
+        display: flex;
+        align-items: center;
+    }
+
+    .navbar .toggleMenu { 
+        display: none;
+    }
+
+    .navbar .menu .navItem {
+        display: flex;
+    }
+
+    .navbar .menu .navItem .navLink {
+        color: var(--primary-color);
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .navbar {
+        height: 150px;
+        padding: 0 150px;
+    }
+}

@@ -1,0 +1,131 @@
+.notFound {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, var(--accent-color), var(--primary-color), var(--primary-color));
+    position: relative;
+}
+
+.notFound h1 {
+    font-family: var(--heading-font);
+    font-weight: 700;
+    font-size: 10rem;
+    color: var(--primary-color);
+    filter: drop-shadow(1px 3px 4px rgba(100, 100, 100, .5));
+}
+
+.notFound .wrapper {
+    position: absolute;
+    width: 200px;
+    height: 80px;
+    top: calc(50% - 40px);
+    left: calc(50% - 100px);
+    text-align: center;
+}
+
+.notFound .wrapper h4 {
+    font-family: var(--heading-font);
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--background-color);
+}
+
+.notFound .wrapper p {
+    font-family: var(--body-font);
+    font-weight: 500;
+    font-size: .825rem;
+    color: var(--background-color);
+    margin-bottom: 12px;
+}
+
+.notFound .wrapper a {
+    padding: 8px 16px;
+    background-color: var(--secondary-color);
+    color: var(--background-color);
+    font-family: var(--heading-font);
+    font-weight: 700;
+    font-size: .75rem;
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .notFound h1 {
+        font-size: 18rem;
+    }
+    
+    .notFound .wrapper {
+        width: 400px;
+        height: 120px;
+        top: calc(50% - 60px);
+        left: calc(50% - 200px);
+    }
+    
+    .notFound .wrapper h4 {
+        font-size: 2rem;
+    }
+    
+    .notFound .wrapper p {
+        font-size: 1rem;
+        margin-bottom: 24px;
+    }
+    
+    .notFound .wrapper a {
+        font-size: .825rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .notFound h1 {
+        font-size: 20rem;
+    }
+    
+    .notFound .wrapper {
+        width: 400px;
+        height: 140px;
+        top: calc(50% - 70px);
+        left: calc(50% - 200px);
+    }
+    
+    .notFound .wrapper h4 {
+        margin-bottom: 5px;
+    }
+    
+    .notFound .wrapper p {
+        margin-bottom: 32px;
+    }
+    
+    .notFound .wrapper a {
+        font-size: .925rem;
+    }
+
+    .notFound .wrapper a:hover {
+        opacity: .2;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .notFound h1 {
+        font-size: 25rem;
+    }
+    
+    .notFound .wrapper {
+        width: 600px;
+        height: 150px;
+        top: calc(50% - 75px);
+        left: calc(50% - 300px);
+    }
+    
+    .notFound .wrapper h4 {
+        font-size: 2.25rem;
+        margin-bottom: 8px;
+    }
+    
+    .notFound .wrapper p {
+        margin-bottom: 32px;
+    }
+    
+    .notFound .wrapper a {
+        font-size: 1rem;
+    }
+}
