@@ -1,3 +1,4 @@
+import { dataProjects } from '../../data/projects';
 import ProjectItem from './ProjectItem';
 import styles from './Projects.module.css';
 
@@ -11,9 +12,9 @@ export default function ProjectList() {
                 </h1>
             </div>
             <div className={styles.wrapper}>
-                <ProjectItem />
-                <ProjectItem />
-                <ProjectItem />
+            {dataProjects.map((project) => (
+                 <ProjectItem key={project.id} project={project} />
+            ))}
             </div>
         </div>
     </section>

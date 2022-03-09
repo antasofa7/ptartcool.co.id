@@ -41,7 +41,7 @@
     position: absolute;
     z-index: 2;
     bottom: 16px;
-    right: 16px;
+    left: 16px;
     font-family: var(--heading-font);
     font-size: 1rem;
     font-weight: 600;
@@ -98,7 +98,7 @@
 
     .heading {
         font-size: 1.25rem;
-        right: 32px;
+        left: 32px;
         margin-bottom: 12px;
     }
 

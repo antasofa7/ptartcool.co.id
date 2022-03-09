@@ -31,7 +31,7 @@ export const dataClients = [
   },
   {
     id: 7,
-    name: 'LG_Innotek',
+    name: 'LG-Innotek',
     logo: 'LG_Innotek.png',
   },
   {
@@ -41,8 +41,8 @@ export const dataClients = [
   },
   {
     id: 9,
-    name: 'krakatau',
-    logo: 'krakatau.png',
+    name: 'saint-james',
+    logo: 'saint-james.png',
   },
   {
     id: 10,
@@ -58,5 +58,20 @@ export const dataClients = [
     id: 12,
     name: 'parkland',
     logo: 'parkland.png',
+  },
+  {
+    id: 13,
+    name: 'shoenary',
+    logo: 'shoenary-logo.png',
+  },
+  {
+    id: 14,
+    name: 'cj-logistic',
+    logo: 'cj-logistic.png',
+  },
+  {
+    id: 15,
+    name: 'pratama',
+    logo: 'pratama.png',
   },
 ];

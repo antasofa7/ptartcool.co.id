@@ -64,7 +64,7 @@ export default function Footer() {
                       {' '}
                         Jl. Industri Selatan Blok LL 4-5
                         Kawasan Industri Indocargo
-                        Mas Perdana Pasir Sari
+                        Mas Persada Pasir Sari
                         Cikarang Selatan - Kab. Bekasi
                     </p>
                   </div>

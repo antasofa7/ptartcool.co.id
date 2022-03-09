@@ -10,6 +10,7 @@ import { Autoplay, Pagination } from 'swiper';
 import Title from '../Title';
 import styles from './Projects.module.css';
 import ProjectItem from './ProjectItem';
+import { dataProjects } from '../../data/projects';
 
 export default function ProjectComponent() {
   return (
@@ -30,18 +31,11 @@ export default function ProjectComponent() {
               modules={[Autoplay, Pagination]}
               className={styles.projectSwiper}
             >
+              {dataProjects.map((project) => (
                 <SwiperSlide>
-                    <ProjectItem home />
+                  <ProjectItem key={project.id} project={project} />
                 </SwiperSlide>
-                <SwiperSlide>
-                    <ProjectItem home />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <ProjectItem home />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <ProjectItem home />
-                </SwiperSlide>
+              ))}
             </Swiper>
         </div>
     </section>

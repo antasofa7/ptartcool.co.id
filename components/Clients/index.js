@@ -9,7 +9,7 @@ export default function Clients() {
         <div className="container">
             <Title title="Clients" />
             <div className={styles.row}>
-                {dataClients.map((client) => <ClientItem key={client.id} logo={client.logo} />)}
+                {dataClients.map((client) => <ClientItem key={client.id} client={client} />)}
             </div>
         </div>
     </section>
