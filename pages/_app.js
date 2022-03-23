@@ -2,8 +2,6 @@ import Head from 'next/head';
 import '../styles/globals.css';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import NavItem from '../components/Navbar/NavItem';
-import { dataMenu } from '../data';
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -16,7 +14,6 @@ function MyApp({ Component, pageProps }) {
             <meta name="description" content="Website resmi PT Art Cool, menerima project pemasangan chiller, dehumidifier, air conditioner (AC) dll" />
             <link rel="icon" href="/icons/favicon.ico" />
         </Head>
-        {dataMenu.map((menu) => <NavItem key={menu.id} name={menu.name} link={menu.link} />)}
         <Component {...pageProps} />
         <ToastContainer
           position="top-right"
