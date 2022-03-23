@@ -46,6 +46,7 @@
 .headerSwiper .headingWrapper .btnCta {
   display: flex;
   flex-wrap: nowrap;
+  justify-content: space-between;
   max-width: 110px;
   margin-left: 12px;
   padding: 5px 10px;
@@ -58,9 +59,8 @@
 }
 
 .headerSwiper .headingWrapper .btnCta .icon {
-  margin-left: 10px;
   height: 10px;
-  width: auto;
+  width: 10px;
 }
 
 .headerSwiper .headingWrapper .btnCta:hover .icon {
