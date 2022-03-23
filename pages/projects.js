@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import React from 'react';
 import Chat from '../components/Chat';
 import Footer from '../components/Footer';
@@ -8,6 +9,9 @@ import Spacing from '../components/Spacing';
 export default function projects() {
   return (
     <>
+        <Head>
+          <title>Projects | PT Art Cool</title>
+        </Head>
         <Navbar />
         <Spacing />
         <Chat />

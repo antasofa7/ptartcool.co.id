@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import Banner from '../components/Banner';
 import Chat from '../components/Chat';
 import Clients from '../components/Clients';
@@ -11,6 +12,9 @@ import { dataProducts } from '../data';
 export default function Home({ products }) {
   return (
     <>
+      <Head>
+      <title>Home | PT Art Cool</title>
+      </Head>
       <header id="home">
           <Navbar />
           <Banner />
