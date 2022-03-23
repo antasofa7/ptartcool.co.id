@@ -27,7 +27,7 @@ export default function Home({ products }) {
 }
 
 export async function getStaticProps() {
-  dataProducts.length = 4;
+  dataProducts.length = 3;
   const products = await dataProducts;
   return {
     props: {

@@ -54,4 +54,9 @@ export const dataProjects = [
     name: 'PT Shoenary Javanesia Inc',
     image: 'shoenary.jpg',
   },
+  {
+    id: 12,
+    name: 'PT Java Seafood',
+    image: 'javaseafood.jpg',
+  },
 ];

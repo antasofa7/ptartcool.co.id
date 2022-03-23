@@ -74,4 +74,19 @@ export const dataClients = [
     name: 'pratama',
     logo: 'pratama.png',
   },
+  {
+    id: 16,
+    name: 'seoilindo',
+    logo: 'seoilindo.png',
+  },
+  {
+    id: 17,
+    name: 'samheung',
+    logo: 'samheung.png',
+  },
+  {
+    id: 18,
+    name: 'juahn',
+    logo: 'juahn.png',
+  },
 ];
