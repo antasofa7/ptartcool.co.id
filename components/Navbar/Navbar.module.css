@@ -14,11 +14,6 @@
     height: 2rem;
 }
 
-.navbar .logo img {
-    height: 100%;
-    width: auto;
-}
-
 .navbar .toggleMenu {
     width: 28px;
     height: auto;

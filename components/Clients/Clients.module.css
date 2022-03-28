@@ -12,11 +12,6 @@
     align-items: center;
 }
 
-.clients .col img {
-    width: 100%;
-    height: auto;
-}
-
 @media screen and (min-width: 768px) {
     .clients .row {
         grid-template-columns: repeat(5, 1fr);

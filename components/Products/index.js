@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import Title from '../Title';
 import ProductItem from './ProductItem';
@@ -16,8 +17,8 @@ export default function ProductComponent({ dataProducts, otherProducts }) {
                         <Link href="/products">
                             <a className={styles.other}>
                                 <div className={styles.gradient} />
-                                <img src="images/CATALOGUE ART COOL-5.jpg" alt="" className={styles.image} />
-                                <p className={styles.name}>
+                                <Image src="/images/CATALOGUE ART COOL-5.jpg" alt="other image" className={styles.image} layout="fill" objectFit="contain" />
+                                <div className={styles.name}>
                                     Other Products
                                     {' '}
                                     <div className={styles.icon}>
@@ -25,7 +26,7 @@ export default function ProductComponent({ dataProducts, otherProducts }) {
                                             <path d="M1 1L5.5 7L1 13" stroke="#01322C" strokeWidth="2" strokeLinecap="round" />
                                         </svg>
                                     </div>
-                                </p>
+                                </div>
                             </a>
                         </Link>
                     </div>

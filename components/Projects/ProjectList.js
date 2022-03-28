@@ -11,11 +11,9 @@ export default function ProjectList() {
                     Projects
                 </h1>
             </div>
-            <div className={styles.wrapper}>
             {dataProjects.map((project) => (
                  <ProjectItem key={project.id} project={project} />
             ))}
-            </div>
         </div>
     </section>
   );

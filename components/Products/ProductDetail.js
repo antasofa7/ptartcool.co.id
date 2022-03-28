@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import styles from './Products.module.css';
 
 export default function ProductDetail({ product }) {
@@ -32,9 +33,9 @@ export default function ProductDetail({ product }) {
                     </a>
                 </h5>
                 {product.detail
-                  ? <img src={`/images/${product.detail}`} alt="" />
+                  ? <Image width="100%" height="100%" src={`/images/${product.detail}`} alt={product.name} layout="responsive" objectFit="contain" />
                   : (
-                  <img src={`/images/${product.image}`} alt="" />
+                    <Image width="100%" height="100%" src={`/images/${product.image}`} alt={product.name} layout="responsive" objectFit="contain" />
                   )}
             </div>
         </div>

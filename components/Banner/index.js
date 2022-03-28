@@ -9,6 +9,7 @@ import 'swiper/css/navigation';
 import { Autoplay, Pagination } from 'swiper';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import styles from './Banner.module.css';
 
 function Banner() {
@@ -46,7 +47,7 @@ function Banner() {
                   </Link>
               </div>
               <div className={styles.gradient} />
-              <img src="/images/standing-AC.png" alt="header" />
+              <Image src="/images/standing-AC.png" alt="AC Floor Standing 5~20HP" layout="fill" objectFit="contain" />
             </div>
           </SwiperSlide>
           <SwiperSlide>
@@ -67,7 +68,7 @@ function Banner() {
                   </Link>
               </div>
               <div className={styles.gradient} />
-              <img src="/images/chiller5-30.png" alt="header" />
+              <Image src="/images/chiller5-30.png" alt="Chiller 5~30HP" layout="fill" objectFit="contain" />
             </div>
           </SwiperSlide>
           <SwiperSlide>
@@ -88,7 +89,7 @@ function Banner() {
                   </Link>
               </div>
               <div className={styles.gradient} />
-              <img src="/images/lg-air-cooled-50hp.png" alt="header" />
+              <Image src="/images/lg-air-cooled-50hp.png" alt="LG Air Cooled Inverter Scroll Chiller 25 & 50HP" layout="fill" objectFit="contain" />
             </div>
           </SwiperSlide>
       </Swiper>

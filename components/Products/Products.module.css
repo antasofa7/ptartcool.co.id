@@ -73,9 +73,6 @@
 }
 
 .products .col img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
   transition: transform .5s ease;
   filter: drop-shadow(1px 3px 4px rgba(1, 50, 44, .5));
 }
@@ -183,12 +180,11 @@
 
 @media screen and (min-width: 992px) {
   .products .row {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 24px;
   }
 
   .products .col img:hover {
-      transform: scale(1.2);
+      transform: scale(1.15);
   }
 
   .title {

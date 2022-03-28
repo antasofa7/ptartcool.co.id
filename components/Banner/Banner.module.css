@@ -11,8 +11,6 @@
 }
 
 .headerSwiper img {
-  height: 100%;
-  width: auto;
   filter: drop-shadow(1px 3px 4px rgba(1, 50, 44, .5));
 }
 
